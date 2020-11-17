@@ -7,7 +7,13 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
       
 foo: baz
+---
+spring:
+  profiles: test
 
+cook:
+  special: Beer
+secretMenu: Tofu Surprise
 ---
 spring:
   profiles: cloud
